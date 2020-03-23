@@ -1,5 +1,6 @@
 # vscode_git
 
-this is a example about connecting git.
+Nomad Coder
+    Vanila JavaScript.
 
-first commit.
+vscode 와 git 사용도 연습
