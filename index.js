@@ -1,23 +1,18 @@
 const title=document.querySelector("#title");
 
-const BASE_COLOR="rgb(52, 73, 94)";
-const OTHER_COLOR="red";
+const CLIKED_CLASS="clicked";
 
 function handleClick(){
-    const currentColor=title.style.color;
-    if(currentColor===BASE_COLOR){
-        title.style.color=OTHER_COLOR;
+    const hasClass=title.classList.contains(CLIKED_CLASS);
+    if(!hasClass){
+        title.classList.add(CLIKED_CLASS);
     }else{
-        title.style.color=BASE_COLOR;
+        title.classList.remove(CLIKED_CLASS);
     }
-    console.log(currentColor);
-    console.log(BASE_COLOR);
-    console.log(title.style.color);
 }
 
 function init(){
-    title.style.color="black";
-    title.addEventListener("click",handleClick);
+        title.addEventListener("click",handleClick);
 }
 
 init();

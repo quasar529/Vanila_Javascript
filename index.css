@@ -1,10 +1,12 @@
 body{
-  background-color:"rgb(0, 0, 0)";
+  background-color:lightgreen;
 }
 h1{
-  color:"green";
+  color:purple;
 }
-
+.btn{
+  cursor: pointer;
+}
 .clicked{
-  color:"grey";
+  color:peru;
 }
