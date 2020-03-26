@@ -1,6 +1,6 @@
 const title=document.querySelector("#title");
 
-const BASE_COLOR="rgb(52,73,94)";
+const BASE_COLOR="rgb(52, 73, 94)";
 const OTHER_COLOR="red";
 
 function handleClick(){
@@ -10,6 +10,9 @@ function handleClick(){
     }else{
         title.style.color=BASE_COLOR;
     }
+    console.log(currentColor);
+    console.log(BASE_COLOR);
+    console.log(title.style.color);
 }
 
 function init(){
@@ -18,3 +21,10 @@ function init(){
 }
 
 init();
+
+// function handleOnline(){
+//     console.log("YOU ARE ONLINE!!")
+// }
+
+// window.addEventListener("online",handleOnline);
+
