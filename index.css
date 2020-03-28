@@ -1,5 +1,5 @@
 body{
-  background-color:lightgreen;
+  background-color:rgb(144, 208, 238);
 }
 h1{
   color:purple;
@@ -9,4 +9,12 @@ h1{
 }
 .clicked{
   color:peru;
+}
+.form,
+.greetings{
+  display:none;
+}
+
+.showing{
+  display:block;
 }
