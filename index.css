@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(144, 208, 238);
+  /* background-color:rgb(144, 208, 238); */
 }
 h1{
   color:purple;
@@ -17,4 +17,34 @@ h1{
 
 .showing{
   display:block;
+}
+
+.js-toDoList{
+  /* padding:20px; */
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  line-height:250% ;
+  font-size: 20px;
+
+}
+
+.js-clock{
+  text-align: center;
+  margin:30px;
+  font-size: 25px;
+}
+.js-toDoForm{
+  text-align: center;
+}
+input::-webkit-input-placeholder { 
+  color: red;
+  font-style: italic; 
+  font-size: initial;
+}
+
+.js-greetings{
+  text-align: center;
+  font-size: 50px;
+  margin:10px;
 }
