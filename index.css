@@ -35,12 +35,16 @@ h1{
 
 .js-clock{
   text-align: center;
-  margin:30px;
+ 
   font-size: 25px;
+}
+.js-form{
+  text-align: center;
+  margin-top: 60px;
 }
 .js-toDoForm{
   text-align: center;
-  margin:30px;
+  margin-top:60px;
 }
 input::-webkit-input-placeholder { 
   color: black;
