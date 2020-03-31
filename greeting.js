@@ -20,7 +20,7 @@ function askForName(){
 function paintGreeting(text){
     form.classList.remove(SHOWING_ON);
     greeting.classList.add(SHOWING_ON);
-    greeting.innerText=`Hello ${text}`;
+    greeting.innerText=`Hello ${text}!`;
     //saveName(text);
 }
 function loadName(){
