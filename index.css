@@ -35,7 +35,6 @@ h1{
 
 .js-clock{
   text-align: center;
- 
   font-size: 25px;
 }
 .js-form{
@@ -56,7 +55,7 @@ input::-webkit-input-placeholder {
   text-align: center;
   font-size: 50px;
   margin:10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: cursive;
 }
 @keyframes fadeIn{
   from{
@@ -77,3 +76,16 @@ input::-webkit-input-placeholder {
   animation: fadeIn .5s linear;
 }
 
+.js-weather{
+  /* display:table-cell;
+  vertical-align: middle; */
+  /* display:flex;
+  align-items: center; */
+  display:inline-block;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size:40px;
+  font-style: initial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
